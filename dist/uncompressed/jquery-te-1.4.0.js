@@ -580,7 +580,7 @@
 				if(!toolbar.data("sourceOpened"))
 				{
 					var selectedTag = getSelectedNode(); // the selected node
-					var thisHrefLink = "http://"; // default the input value of the link-form-field
+					var thisHrefLink = ""; // default the input value of the link-form-field
 
 					// display the link-form-field
 					linkAreaSwitch(true);
